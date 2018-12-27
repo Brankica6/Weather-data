@@ -1,0 +1,103 @@
+body {
+  background: url("images/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.row {
+  max-width: 100%;
+  max-height: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.datas {
+  padding: 30px 0;
+  width: 100%;
+  margin-top: 50px;
+  margin:auto;
+  align-content: center;
+  background-color: #062F4F;
+  opacity: 0.7;
+}
+
+#convert {
+  float: right;
+  display: block;
+  padding: 5px;
+  width: 15%;
+}
+
+#dani {
+  width: 85%;
+}
+
+#list li {
+  display: inline-flex;
+  text-align: center;
+  width: 100px;
+  height: 150px;
+  padding: 15px;
+  border: 1px outset #e6f2ff;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+li:hover {
+  background-color: white;
+  opacity: 0.3;
+  color: #333;
+  cursor: pointer;
+  border: 1px outset #e6f2ff;
+}
+
+#display {
+  width: 40%;
+  margin-left: 8rem;
+  margin-top: 2rem;
+  background-color: #062F4F;
+  opacity: 0.7;
+  text-align: center;
+}
+
+#display h1 {
+  padding: 5px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+button {
+  padding: 5px;
+  display: block;
+  margin-top: 20px;
+  background-color: #e6f2ff;
+  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  width: 80px;
+  height: 40px;
+}
+
+button:hover {
+  background-color: #062F4F;
+  color: white;
+  cursor: pointer;
+}
